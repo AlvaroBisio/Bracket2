@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 102, 0);
+    font-family: 'Trebuchet MS';
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 20px;
+}
+.contenedor .logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.logoimagen{
+    height:300px;
+    width:204px
+}
+.header{
+    grid-column-start: 2;
+    grid-column-end: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.botonredes:hover {
+    box-shadow: inset 0 0 20px chocolate, 0 0 20px chocolate;
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 80px;
+    text-shadow: 1px 1px 6px #fff;
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.imagenestransiciones:hover{
+    filter: grayscale(50%);
+    -webkit-transform:scale(1.3);transform:scale(1.3)
+}
+.imagenproductocel:hover{
+    filter: grayscale(50%);
+}
+.contenedor .header2{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor .header2 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+.contenedor .links{
+    font-size: larger;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor .links a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 6px;
+}
+.botonlink:hover {
+    color: rgb(0, 0, 0) !important;
+    -webkit-transform:scale(1.2);transform:scale(1.2)
+  }
+body div nav a button{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 6px;
+}
+.formllenar{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 6px;
+}
+.formllenar2{
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 6px;
+}
+.formtitulos{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+.contenedor .linksgrandes{
+    color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+body div main section a img{
+    width:300px;
+    height: 300px;
+}
+
+.contenedor .video{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.contenedor .bancarias{
+    color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding-left: 40px;
+}
+.contenedor .catalogo{
+    color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor .catalogo div{
+    padding: 5px 5px 5px 5px;
+}
+.contenedor .legales{
+    font-size: 12px;
+    color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    padding-left: 40px;
+}
+.contenedor .footer{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contenedor .footer div{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    display: flex;
+}
+.imagenproductocel{
+    width: 500px;
+    height: 500px;
+}
+body div footer div a{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    color: aliceblue;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 6px;
+}
+.footerbuttons:hover{
+    color: rgb(0, 0, 0) !important;
+}
+.contenedor .lineseparation{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.contenedor .catalogoname{
+    font-size: 60px;
+    color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.contenedor .ProdCatalogo{
+    color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 0px 10px 10px;
+} 
+.contenedor .ProdCatalogo h1{
+    padding: 0px 0px 20px 0px;
+} 
+.contenedor .ProdCatalogo h2{
+    padding: 30px 0px 20px 0px;
+} 
+.contenedor .ProdCatalogo p{
+    padding: 10px 0px 40px 0px;
+} 
+.contenedor .ProdCatalogo button{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 6px;
+} 
+.subscribe form label{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px 10px 10px 10px;
+} 
+.contenedor .subscribe button{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 6px;
+} 
+.iframe-container2{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+  .iframe-container2 iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (max-width:1020px){
+    .contenedor .links a{
+        font-size: 18px;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-left:30px;
+        padding-right:30px;
+        border-radius: 4px;
+    }
+    .contenedor .header2{
+        font-size: 16px;
+    }
+    body div main section{
+        display: flex;
+        flex-direction: row;
+    }
+    body div main section a img{
+        padding: 5px 5px 5px 5px;
+        width: 250px;
+        height: 250px;
+    }
+    .contenedor .catalogoname{
+        font-size: 50px;
+    } 
+}
+
+@media all and (max-width:900px){
+    .contenedor .links a{
+        font-size: 16px;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:15px;
+        padding-right:15px;
+        border-radius: 3px;
+    }
+    .contenedor .header2{
+        font-size: 14px;
+    }
+    body div nav a button{
+        font-size: 10px;
+        margin-left: 5px;
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-left:5px;
+        padding-right:5px;
+        border-radius: 6px;
+    }
+    .formllenar{
+        font-size: 10px;
+        padding-top:2px;
+        padding-bottom:2px;
+    }
+    body div main section a img{
+        width: 200px;
+        height: 200px;
+    }
+    .contenedor .catalogoname{
+        font-size: 40px;
+    } 
+    .contenedor .legales{
+        font-size: 11px;
+    }
+    .contenedor .bancarias h2{
+        font-size: 20px;
+    }
+    .contenedor .bancarias ul li{
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:650px){
+    .contenedor .links a{
+        font-size: 12px;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:10px;
+        padding-right:10px;
+        border-radius: 3px;
+    }
+    .logoimagen{
+        height:270px;
+        width:184px
+    }
+    .contenedor .header2{
+        font-size: 8px;
+    }
+    body div nav a button{
+        font-size: 8px;
+        margin-left: 4px;
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-left:4px;
+        padding-right:4px;
+        border-radius: 6px;
+    }
+    .formllenar{
+        font-size: 9px;
+    }
+    body div main section a img{
+        width: 140px;
+        height: 140px;
+    }
+    .contenedor .catalogoname{
+        font-size: 30px;
+    } 
+    .imagenproductocel{
+        width: 400px;
+        height: 400px;
+    }
+    .contenedor .legales{
+        font-size: 10px;
+    }
+    body div footer div a{
+        font-size: 10px;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .contenedor .bancarias h2{
+        font-size: 18px;
+    }
+    .contenedor .bancarias ul li{
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width:450px){
+    .contenedor .links a{
+        font-size: 10px;
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-left:8px;
+        padding-right:8px;
+        border-radius: 3px;
+    }
+    .logoimagen{
+        height:240px;
+        width:167px
+    }
+    .imagenproductocel{
+        width: 300px;
+        height: 300px;
+    }
+    body div main section a img{
+        width: 100px;
+        height: 100px;
+    }
+    .contenedor .legales{
+        font-size: 8px;
+    }
+    body div footer div a{
+        font-size: 8px;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .contenedor .catalogoname{
+        font-size: 20px;
+    } 
+    .contenedor .bancarias h2{
+        font-size: 15px;
+    }
+    .contenedor .bancarias ul li{
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width:360px){
+    .contenedor .links a{
+        font-size: 8px;
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-left:8px;
+        padding-right:8px;
+        border-radius: 3px;
+    }
+    .logoimagen{
+        height:215px;
+        width:150px
+    }
+    .imagenproductocel{
+        width: 250px;
+        height: 250px;
+    }
+    body div main section a img{
+        width: 80px;
+        height: 80px;
+    }
+    .contenedor .legales{
+        font-size: 7px;
+    }
+    body div footer div a{
+        font-size: 8px;
+        padding-top:2px;
+        padding-bottom:2px;
+        padding-left:8px;
+        padding-right:8px;
+    }
+    .contenedor .bancarias h2{
+        font-size: 14px;
+    }
+    .contenedor .bancarias ul li{
+        font-size: 8px;
+    }
+}
