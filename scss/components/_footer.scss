@@ -1,0 +1,71 @@
+body {
+	div {
+		footer {
+			div {
+				a {
+                    @include nonetext;
+					text-align: center;
+					font-weight: bold;
+					font-size: 15px;
+					color: map-get($estilos, color2);
+					padding-top: 5px;
+					padding-bottom: 5px;
+					padding-left: 40px;
+					padding-right: 40px;
+					background-color: transparent;
+					border-width: 2px;
+					border-style: solid;
+					border-color: map-get($estilos, color3);
+					border-radius: 6px;
+				}
+			}
+		}
+	}
+}
+.contenedor {
+	.footer {
+        @extend %grid-total-center;
+		justify-content: space-between;
+		div {
+            @include nonetext;
+			font-weight: bold;
+			padding: 40px 40px 40px 40px;
+			text-align: center;
+			display: flex;
+		}
+	}
+	.lineseparation {
+        @extend %grid-total-center;
+		justify-content: center;
+	}
+	.subscribe {
+		button {
+            @include nonetext;
+			font-weight: bold;
+			font-size: 20px;
+			color: map-get($estilos, color2);
+			padding-top: 5px;
+			padding-bottom: 5px;
+			padding-left: 40px;
+			padding-right: 40px;
+			background-color: transparent;
+			border-width: 2px;
+			border-style: solid;
+			border-color: map-get($estilos, color3);
+			border-radius: 6px;
+		}
+	}
+}
+
+.subscribe {
+	form {
+		label {
+            @extend %grid-total-center;
+			flex-direction: column;
+			justify-content: center;
+			justify-items: center;
+			align-content: center;
+			padding: 10px 10px 10px 10px;
+		}
+	}
+}

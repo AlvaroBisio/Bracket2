@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Base*/
+@import "../scss/base/map";
+@import "../scss/base/extend";
+@import "../scss/base/mixin";
+
+/*Components*/
+@import "../scss/components/header";
+@import "../scss/components/main";
+@import "../scss/components/footer";
+@import "../scss/components/medias";
+

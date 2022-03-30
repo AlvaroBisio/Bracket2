@@ -1,0 +1,310 @@
+@media all and (max-width:1020px) {
+	.contenedor {
+		.links {
+			a {
+				font-size: 18px;
+				padding-top: 4px;
+				padding-bottom: 4px;
+				padding-left: 30px;
+				padding-right: 30px;
+				border-radius: 4px;
+			}
+		}
+		.header2 {
+			font-size: 16px;
+		}
+		.catalogoname {
+			font-size: 50px;
+		}
+	}
+	body {
+		div {
+			main {
+				section {
+					display: flex;
+					flex-direction: row;
+					a {
+						img {
+							padding: 5px 5px 5px 5px;
+							width: 250px;
+							height: 250px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media all and (max-width:900px) {
+	.contenedor {
+		.links {
+			a {
+				font-size: 16px;
+				padding-top: 3px;
+				padding-bottom: 3px;
+				padding-left: 15px;
+				padding-right: 15px;
+				border-radius: 3px;
+			}
+		}
+		.header2 {
+			font-size: 14px;
+		}
+		.catalogoname {
+			font-size: 40px;
+		}
+		.legales {
+			font-size: 11px;
+		}
+		.bancarias {
+			h2 {
+				font-size: 20px;
+			}
+			ul {
+				li {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	body {
+		div {
+			nav {
+				a {
+					button {
+						font-size: 10px;
+						margin-left: 5px;
+						padding-top: 2px;
+						padding-bottom: 2px;
+						padding-left: 5px;
+						padding-right: 5px;
+						border-radius: 6px;
+					}
+				}
+			}
+			main {
+				section {
+					a {
+						img {
+							width: 200px;
+							height: 200px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.formllenar {
+		font-size: 10px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+}
+@media all and (max-width:650px) {
+	.contenedor {
+		.links {
+			a {
+				font-size: 12px;
+				padding-top: 3px;
+				padding-bottom: 3px;
+				padding-left: 10px;
+				padding-right: 10px;
+				border-radius: 3px;
+			}
+		}
+		.header2 {
+			font-size: 8px;
+		}
+		.catalogoname {
+			font-size: 30px;
+		}
+		.legales {
+			font-size: 10px;
+		}
+		.bancarias {
+			h2 {
+				font-size: 18px;
+			}
+			ul {
+				li {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+	.logoimagen {
+		height: 270px;
+		width: 184px;
+	}
+	body {
+		div {
+			nav {
+				a {
+					button {
+						font-size: 8px;
+						margin-left: 4px;
+						padding-top: 2px;
+						padding-bottom: 2px;
+						padding-left: 4px;
+						padding-right: 4px;
+						border-radius: 6px;
+					}
+				}
+			}
+			main {
+				section {
+					a {
+						img {
+							width: 140px;
+							height: 140px;
+						}
+					}
+				}
+			}
+			footer {
+				div {
+					a {
+						font-size: 10px;
+						padding-top: 4px;
+						padding-bottom: 4px;
+						padding-left: 20px;
+						padding-right: 20px;
+					}
+				}
+			}
+		}
+	}
+	.formllenar {
+		font-size: 9px;
+	}
+	.catalogoname2 {
+		font-size: 30px;
+	}
+	.imagenproductocel {
+		width: 400px;
+		height: 400px;
+	}
+}
+@media all and (max-width:450px) {
+	.contenedor {
+		.links {
+			a {
+				font-size: 10px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				padding-left: 8px;
+				padding-right: 8px;
+				border-radius: 3px;
+			}
+		}
+		.legales {
+			font-size: 8px;
+		}
+		.catalogoname {
+			font-size: 20px;
+		}
+		.bancarias {
+			h2 {
+				font-size: 15px;
+			}
+			ul {
+				li {
+					font-size: 10px;
+				}
+			}
+		}
+	}
+	.logoimagen {
+		height: 240px;
+		width: 167px;
+	}
+	.imagenproductocel {
+		width: 300px;
+		height: 300px;
+	}
+	body {
+		div {
+			main {
+				section {
+					a {
+						img {
+							width: 100px;
+							height: 100px;
+						}
+					}
+				}
+			}
+			footer {
+				div {
+					a {
+						font-size: 8px;
+						padding-top: 3px;
+						padding-bottom: 3px;
+						padding-left: 10px;
+						padding-right: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+@media all and (max-width:360px) {
+	.contenedor {
+		.links {
+			a {
+				font-size: 8px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				padding-left: 8px;
+				padding-right: 8px;
+				border-radius: 3px;
+			}
+		}
+		.legales {
+			font-size: 7px;
+		}
+		.bancarias {
+			h2 {
+				font-size: 14px;
+			}
+			ul {
+				li {
+					font-size: 8px;
+				}
+			}
+		}
+	}
+	.logoimagen {
+		height: 215px;
+		width: 150px;
+	}
+	.imagenproductocel {
+		width: 250px;
+		height: 250px;
+	}
+	body {
+		div {
+			main {
+				section {
+					a {
+						img {
+							width: 80px;
+							height: 80px;
+						}
+					}
+				}
+			}
+			footer {
+				div {
+					a {
+						font-size: 8px;
+						padding-top: 2px;
+						padding-bottom: 2px;
+						padding-left: 8px;
+						padding-right: 8px;
+					}
+				}
+			}
+		}
+	}
+}

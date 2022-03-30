@@ -1,0 +1,19 @@
+{
+  "name": "bracketnew",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass scss/style.scss css/style2.css -w --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlvaroBisio/BracketNew.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlvaroBisio/BracketNew/issues"
+  },
+  "homepage": "https://github.com/AlvaroBisio/BracketNew#readme",
+  "description": ""
+}
