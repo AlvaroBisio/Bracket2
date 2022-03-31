@@ -9,11 +9,11 @@
     "type": "git",
     "url": "git+https://github.com/AlvaroBisio/BracketNew.git"
   },
-  "author": "",
+  "author": "Alvaro Andres Bisio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlvaroBisio/BracketNew/issues"
   },
   "homepage": "https://github.com/AlvaroBisio/BracketNew#readme",
-  "description": ""
+  "description": "Bracket Casual Clothes website"
 }
