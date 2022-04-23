@@ -344,8 +344,8 @@ body div footer div a {
     font-size: 18px;
     padding-top: 4px;
     padding-bottom: 4px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-radius: 4px;
   }
   .contenedor .header2 {
@@ -370,8 +370,8 @@ body div footer div a {
     font-size: 16px;
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
     border-radius: 3px;
   }
   .contenedor .header2 {
@@ -412,12 +412,15 @@ body div footer div a {
 }
 @media all and (max-width: 650px) {
   .contenedor .links a {
-    font-size: 12px;
+    font-size: 15px;
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 28px;
+    padding-right: 28px;
     border-radius: 3px;
+  }
+  .contenedor .links .botonout {
+    display: none;
   }
   .contenedor .header2 {
     font-size: 11px;
