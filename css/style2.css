@@ -93,8 +93,8 @@ body div main section a img {
 }
 
 .logoimagen {
-  height: 300px;
-  width: 204px;
+  height: 200px;
+  width: 140px;
 }
 
 .header {
@@ -415,12 +415,12 @@ body div footer div a {
     font-size: 12px;
     padding-top: 3px;
     padding-bottom: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
     border-radius: 3px;
   }
   .contenedor .header2 {
-    font-size: 8px;
+    font-size: 11px;
   }
   .contenedor .catalogoname {
     font-size: 30px;
@@ -436,8 +436,8 @@ body div footer div a {
   }
 
   .logoimagen {
-    height: 270px;
-    width: 184px;
+    height: 180px;
+    width: 126px;
   }
 
   body div nav a button {
@@ -476,12 +476,18 @@ body div footer div a {
 }
 @media all and (max-width: 450px) {
   .contenedor .links a {
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-radius: 3px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 2px;
+  }
+  .contenedor .links .botonout {
+    display: none;
+  }
+  .contenedor .header2 {
+    font-size: 8px;
   }
   .contenedor .legales {
     font-size: 8px;
@@ -497,8 +503,8 @@ body div footer div a {
   }
 
   .logoimagen {
-    height: 240px;
-    width: 167px;
+    height: 162px;
+    width: 123px;
   }
 
   .imagenproductocel {
@@ -520,12 +526,12 @@ body div footer div a {
 }
 @media all and (max-width: 360px) {
   .contenedor .links a {
-    font-size: 8px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-radius: 3px;
+    font-size: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 2px;
   }
   .contenedor .legales {
     font-size: 7px;
@@ -538,8 +544,8 @@ body div footer div a {
   }
 
   .logoimagen {
-    height: 215px;
-    width: 150px;
+    height: 100px;
+    width: 80px;
   }
 
   .imagenproductocel {

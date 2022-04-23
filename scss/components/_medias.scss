@@ -107,13 +107,13 @@
 				font-size: 12px;
 				padding-top: 3px;
 				padding-bottom: 3px;
-				padding-left: 10px;
-				padding-right: 10px;
+				padding-left: 8px;
+				padding-right: 8px;
 				border-radius: 3px;
 			}
 		}
 		.header2 {
-			font-size: 8px;
+			font-size: 11px;
 		}
 		.catalogoname {
 			font-size: 30px;
@@ -133,8 +133,8 @@
 		}
 	}
 	.logoimagen {
-		height: 270px;
-		width: 184px;
+		height: 180px;
+		width: 126px;
 	}
 	body {
 		div {
@@ -189,13 +189,19 @@
 	.contenedor {
 		.links {
 			a {
-				font-size: 10px;
+				font-size: 12px;
 				padding-top: 2px;
 				padding-bottom: 2px;
-				padding-left: 8px;
-				padding-right: 8px;
-				border-radius: 3px;
+				padding-left: 18px;
+				padding-right: 18px;
+				border-radius: 2px;
 			}
+			.botonout {
+				display: none;
+			}
+		}
+		.header2 {
+			font-size: 8px;
 		}
 		.legales {
 			font-size: 8px;
@@ -215,8 +221,8 @@
 		}
 	}
 	.logoimagen {
-		height: 240px;
-		width: 167px;
+		height: 162px;
+		width: 123px;
 	}
 	.imagenproductocel {
 		width: 300px;
@@ -252,12 +258,12 @@
 	.contenedor {
 		.links {
 			a {
-				font-size: 8px;
-				padding-top: 2px;
-				padding-bottom: 2px;
-				padding-left: 8px;
-				padding-right: 8px;
-				border-radius: 3px;
+				font-size: 10px;
+				padding-top: 1px;
+				padding-bottom: 1px;
+				padding-left: 14px;
+				padding-right: 14px;
+				border-radius: 2px;
 			}
 		}
 		.legales {
@@ -275,8 +281,8 @@
 		}
 	}
 	.logoimagen {
-		height: 215px;
-		width: 150px;
+		height: 100px;
+		width: 80px;
 	}
 	.imagenproductocel {
 		width: 250px;
